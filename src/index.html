@@ -42,20 +42,21 @@
 
         <fieldset class="fieldset">
           <legend>Choose your sex</legend>
-          <input
-            id="female"
-            type="radio"
-            name="sex"
-            value="f"
-          >
-          <label for="female">Female</label>
-          <input
-            id="male"
-            type="radio"
-            name="sex"
-            value="m"
-          >
-          <label for="male">Male</label>
+          <label>Female
+            <input
+              type="radio"
+              name="sex"
+              value="f"
+            >
+          </label>
+
+          <label>Male
+            <input
+              type="radio"
+              name="sex"
+              value="m"
+            >
+          </label>
         </fieldset>
       </fieldset>
 
@@ -92,13 +93,7 @@
             required
             multiple
           >
-            <option
-              value=" "
-              disabled
-              selected
-            >
-            Choose a color
-            </option>
+            <option disabled selected>Choose a color</option>
             <option value="#f00">Red</option>
             <option value="#0f0">Green</option>
             <option value="00f">Blue</option>
